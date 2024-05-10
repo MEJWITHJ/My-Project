@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#video{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100vh;
+    
+    
+}
+.mainbody{
+    /* overflow: scroll; */
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+    width: 100%;
+    /* margin-bottom: 22px; */
+    
+}
+.navbar h1{
+    font-size: 50px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.562);
+    
+}
+.main{
+
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    color: white;
+   
+}
+.navbar h2{
+    font-size: 40px;
+}
+h1 span a{
+    color: orange;
+    text-decoration: none;
+    
+}
+h1 span:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.navbar a.active{
+    border-radius: 50px;
+    padding: 10px;
+    color: orange;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+.navbar a:hover{
+    color: orange;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 10px;
+    
+}
+.app{
+   background: rgba(255, 255, 255, 0.514);
+   width: 90%;
+   max-width: 600px;
+   margin: 100px auto 0;
+   border-radius: 10px;
+   padding: 30px;
+   
+}
+.app h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+
+}
+.app h2{
+    color: black;
+    
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+font-size: 18px;
+font-weight: 600;
+}
+.btn{
+    background: rgba(255, 255, 255, 0.514);
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border-bottom: 1p solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px 10px ;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: rgba(255, 166, 0, 0.726);
+
+}
+#next{
+    background: rgba(255, 166, 0, 0.938);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    display: block;
+
+}
+#next:hover{
+    background: rgba(255, 166, 0, 0.726);
+}

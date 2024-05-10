@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* body{
+    
+} */
+#video{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100vh;
+    
+    
+}
+.mainbody{
+    /* overflow: scroll; */
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+    width: 100%;
+    /* margin-bottom: 22px; */
+    
+}
+.navbar h1{
+    font-size: 35px;
+}
+.navbar h2{
+    font-size: 30px;
+}
+.navbar{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.562);
+    
+}
+.navbar .ulnav{
+    list-style: none;
+    display: inline-flex;
+}
+.navbar .ulnav li{
+    display: block;
+    padding: 0 50px; 
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar h2{
+    color: white;
+}
+.navbar h1{
+    
+    color: white;
+}
+/* h3 a{
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+h3 a:hover{
+    color: orange;
+} */
+.navbar .span a{
+    color: orange;  
+    text-decoration: none;
+    
+}
+.navbar .span:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.navbar a.active{
+    border-radius: 50px;
+    padding: 10px;
+    color: orange;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+.navbar a:hover{
+    color: orange;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding:  20px;
+    
+}
+.sub-menu-1{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.562);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+/* .navbar ul li:hover .sub-menu-1 ul li a:hover{
+
+} */
+.header h3{
+    font-weight: normal;
+}
+.container1{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.678);
+    margin-left:70px ;
+    margin-right: 70px;
+}
